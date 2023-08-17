@@ -1,0 +1,14 @@
+image:
+  file: .gitpod.Dockerfile
+
+ports:
+  - port: 22
+    visibility: public
+    onOpen: ignore
+
+  
+
+vscode:
+  extensions:
+    - ms-azuretools.vscode-docker
+    - hashicorp.terraform
